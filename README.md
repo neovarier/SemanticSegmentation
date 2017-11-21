@@ -16,19 +16,19 @@ The segmentation is to be achieved by coloring the pixels containing portion of 
 The encoder for FCN-8 is the VGG16 model pretrained on ImageNet for classification. The fully-connected layers are replaced by 1-by-1 convolutions. The decoder of FCN-8 constists of upsampling and skip connections. 
 
 There are only 2 classes being used:
-Class 1: Road
-Class 2: No Road
+Class 1: Road.
+Class 2: No Road.
 So the output of FCN-8 would segment the image into "Road" and "No Road" segments
 
 # Results
 
 I am using the following Hyperparameters tuning:
 
-Keep Probability for Dropouts: 0.5
-Learning Rate : 0.0001
-Epochs: 45
-Batch Size: 4
-Kernel Regularizer: L2 regularizer with lambda = 0.001
+Keep Probability for Dropouts: 0.5.
+Learning Rate : 0.0001.
+Epochs: 45.
+Batch Size: 4.
+Kernel Regularizer: L2 regularizer with lambda = 0.001.
 
 Observation:
 * Keeping the number of epochs constant, and then increasing the Batch Size was degrading the performance
@@ -55,3 +55,5 @@ Few sample output images in which segmentation is working well
 ![alt text][image6]
 
 ![alt text][image7]
+
+The images for the latest run folder are split into half and uploaded as .7z files
