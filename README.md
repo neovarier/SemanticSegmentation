@@ -1,13 +1,13 @@
 # Semantic Segmentation
 [//]: # (Image References)
 
-[image1]: ./output/train_hist.png "Sample 1"
-[image2]: ./output/valid_hist.png "Sample 2"
-[image3]: ./output/train_aug_hist.png "Sample 3"
-[image4]: ./output/valid_aug_hist.png "Sample 4"
-[image5]: ./output/color.png "Sample 5"
-[image6]: ./output/gray.png "Sample 6"
-[image7]: ./output/vanalla_loss.png "Sample 7"
+[image1]: ./output/um_000008.png "Sample 1"
+[image2]: ./output/um_000014.png "Sample 2"
+[image3]: ./output/um_000032.png "Sample 3"
+[image4]: ./output/umm_000035.png "Sample 4"
+[image5]: ./output/umm_000041.png "Sample 5"
+[image6]: ./output/umm_000072.png "Sample 6"
+[image7]: ./output/umm_000077.png "Sample 7"
 
 The goal of the project is to train an FCN-8 model which can segment portions of road in images.
 The segmentation is to be achieved by coloring the pixels containing portion of road.
